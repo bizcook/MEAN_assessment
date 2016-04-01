@@ -26,6 +26,7 @@ router.post("/hero", function(req, res){
   });
 });
 
+//this is supposed to delete a hero based on their ID, but it doesnt work...yet
 router.delete("/hero/:id", function(req, res){
   console.log("in the app js to delete", req.params.id);
   Heroes.remove({_id: req.params.id}, function(err, data){
