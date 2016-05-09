@@ -1,4 +1,4 @@
-# MEAN_assessment
+# Assessment
 
 ##Instructions
 Create a new table in a new database to track animals in our zoo. It should include an auto-incrementing primary key, a column for the type of animal as a string, and a number to keep track of how many of this animal type we have.
